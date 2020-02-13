@@ -1,0 +1,29 @@
+--- lexical-core-0.4.6/Cargo.toml       1970-01-01T00:00:00+00:00
++++ lexical-core-0.4.6/Cargo.toml       2019-12-06T19:37:01.108614+00:00
+@@ -39,7 +39,7 @@
+ [lib]
+ crate-type = ["lib", "staticlib", "cdylib"]
+ [dependencies.arrayvec]
+-version = "0.4"
++version = "0.5"
+ features = ["array-sizes-33-128"]
+ optional = true
+ 
+@@ -55,7 +55,7 @@
+ optional = true
+ 
+ [dependencies.static_assertions]
+-version = "0.3.3"
++version = "1"
+ [dev-dependencies.approx]
+ version = "0.3.0"
+ 
+@@ -63,7 +63,7 @@
+ version = "0.9.4"
+ 
+ [dev-dependencies.quickcheck]
+-version = "0.8.5"
++version = "0.9"
+ [build-dependencies.rustc_version]
+ version = "0.2"
+ 
